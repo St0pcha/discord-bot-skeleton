@@ -1,0 +1,9 @@
+{
+    "Token" : "NzY2MDAxOTM2OTg1MzU4NDM3.X4dA5Q.IL4c05CIDpsMyA-DkaXbByzeo7c",
+    "DefPrefix" : "!",
+    
+    "BadWords" : [
+        "Word 1",
+        "Word 2"
+    ]
+}

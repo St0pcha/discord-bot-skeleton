@@ -1,0 +1,21 @@
+{
+  "name": "discord-bot-skeleton",
+  "version": "0.0.1",
+  "description": "a example bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "discord-bot-skeleton",
+    "bot",
+    "discord",
+    "nodejs",
+    "discordjs"
+  ],
+  "author": "MADE Project & St0pcha",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.5.1"
+  }
+}

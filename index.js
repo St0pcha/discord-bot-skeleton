@@ -1,13 +1,13 @@
 const Discord = require('discord.js');
+const config = require('./config.json');
+
 const client = new Discord.Client();
-
-const { Token } = require('./config.json')
-
 client.commands = new Discord.Collection();
 client.aliases = new Discord.Collection();
 
-["command", "events"].forEach(handler => {
+["command", "events"].forEach(handler => 
+{ // Command and Event handler
     require(`./handlers/${handler}`)(client);
-  });
+});
 
-client.login(Token)
+client.login(config.Token)

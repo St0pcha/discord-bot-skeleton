@@ -1,6 +1,5 @@
-needed npms: 
-quick.db
-discord.js
+npm install discord.js
+npm install quick.db
 
 
 all module exports parametrs:
@@ -10,4 +9,3 @@ category: "",
 description: "",
 usage: "",
 aliases: [""],
-neededPerms: [""],
